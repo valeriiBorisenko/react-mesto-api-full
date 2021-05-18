@@ -1,0 +1,29 @@
+.button__edit{
+  background-color: unset;
+  background-image: url(../../../image/icon/Edit_Button.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 7.5px;
+
+  border: 1px solid #ffffff;
+  min-height: 16px;
+  min-width: 16px;
+
+  margin-left: 10px;
+  margin-bottom: 7px;
+
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 935px) {
+  .button__edit {
+    background-size: 10px;
+
+    min-height: 22px;
+    min-width: 22px;
+
+    margin-left: 18px;
+    margin-bottom: 9px;
+  }
+}

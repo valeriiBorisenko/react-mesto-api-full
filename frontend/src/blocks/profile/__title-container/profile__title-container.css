@@ -1,0 +1,24 @@
+.profile__title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  padding: 0;
+  margin: 0;
+  margin-bottom: 7px;
+  margin-left: 26px;
+  max-width: 85vw;
+}
+
+@media screen and (min-width: 768px) {
+  .profile__title-container {
+    margin-left: 0;
+    max-width: 55vw;
+  }
+}
+
+@media screen and (min-width: 935px) {
+  .profile__title-container {
+    max-width: 550px;
+  }
+}

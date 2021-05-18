@@ -1,0 +1,24 @@
+.element__image {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100vw;
+  min-height: 282px;
+
+  border-radius: 10px 10px 0 0;
+}
+
+.element__image:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 620px) {
+  .element__image {
+    height: 50vw;
+  }
+}
+
+@media screen and (min-width: 935px) {
+  .element__image {
+    height: 282px;
+  }
+}

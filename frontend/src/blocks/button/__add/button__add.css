@@ -1,0 +1,23 @@
+.button__add {
+  width: 282px;
+  height: 50px;
+
+  background-color: unset;
+  background-image: url(../../../image/icon/Add_Button.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 16px;
+
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .button__add {
+    width: 150px;
+    background-size: 24px;
+  }
+}

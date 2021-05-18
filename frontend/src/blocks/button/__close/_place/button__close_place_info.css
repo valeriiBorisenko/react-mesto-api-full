@@ -1,0 +1,11 @@
+.button__close_place_info {
+  right: 47.6%;
+  top: -55px;
+}
+
+@media screen and (min-width: 768px) {
+  .button__close_place_info {
+    right: -37px;
+    top: -35px;
+  }
+}

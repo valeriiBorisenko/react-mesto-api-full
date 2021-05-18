@@ -1,0 +1,14 @@
+.button__menu{
+  width: 24px;
+  height: 21px;
+  background-color: unset;
+  background-position: center;
+  background-size: cover;
+  border: unset;
+}
+
+@media screen and (min-width: 620px) {
+  .button__menu {
+    display: none;
+  }
+}

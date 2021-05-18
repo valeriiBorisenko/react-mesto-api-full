@@ -1,0 +1,8 @@
+.element__container {
+  display: flex;
+  padding: 25px 15px 25px 21px;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

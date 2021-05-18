@@ -1,0 +1,13 @@
+.button__save_state_invalid {
+  opacity: 0.2;
+  background: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+  transition: none;
+  cursor: default;
+}
+
+.button__save_state_invalid:hover {
+  opacity: 0.2;
+  transition: none;
+}

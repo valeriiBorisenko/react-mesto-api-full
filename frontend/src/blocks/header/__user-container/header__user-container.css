@@ -1,0 +1,11 @@
+.header__user-container{
+  display: none;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (min-width: 620px){
+  .header__user-container{
+    display: flex;
+  }
+}

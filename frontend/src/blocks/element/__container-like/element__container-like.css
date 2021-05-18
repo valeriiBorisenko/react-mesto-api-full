@@ -1,0 +1,7 @@
+.element__container-like{
+  display: flex;
+  flex-direction: column;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+}

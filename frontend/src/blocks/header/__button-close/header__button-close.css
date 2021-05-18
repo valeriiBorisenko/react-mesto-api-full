@@ -1,0 +1,18 @@
+.header__button-close {
+  color: #a9a9a9;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  background-color: unset;
+  border: none;
+
+  margin-top: 18px;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 620px) {
+  .header__button-close {
+    margin-top: 0px;
+    margin-left: 24px;
+  }
+}
