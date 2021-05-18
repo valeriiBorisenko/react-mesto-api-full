@@ -1,0 +1,20 @@
+.button__edit_place_avatar {
+  height: 120px;
+  width: 120px;
+  border: none;
+  background-size: 26px;
+  border-radius: 120px;
+
+  margin: auto;
+
+  position: absolute;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: opacity 0.3s linear, background-color 0.6s ease;
+}
+
+.button__edit_place_avatar:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: opacity 0.3s linear, background-color 0.6s ease;
+}

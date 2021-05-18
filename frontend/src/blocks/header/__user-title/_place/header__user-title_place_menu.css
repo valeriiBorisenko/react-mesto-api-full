@@ -1,0 +1,15 @@
+.header__user-title_place_menu{
+  color: #A9A9A9;
+  font-size: 18px;
+  line-height: 22px;
+
+  margin-top: 18px;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 620px){
+  .header__user-title_place_menu{
+    margin-top: 0px;
+    margin-left: 24px;
+  }
+}

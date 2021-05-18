@@ -1,0 +1,14 @@
+.header__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 84px;
+  margin: 0 24px 0 27px;
+}
+
+@media screen and (min-width: 935px) {
+  .header__container {
+    min-height: 119px;
+  }
+}

@@ -1,0 +1,14 @@
+.header__user-title{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  line-height: 17px;
+
+}
+
+@media screen and (min-width: 935px) {
+  .header__user-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
