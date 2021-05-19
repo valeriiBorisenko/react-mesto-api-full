@@ -111,7 +111,7 @@ exports.login = async (req, res, next) => {
     const matched = await bcrypt.compare(password, user.password);
     if (matched) {
       const token = jwt.sign({ _id: user._id }, NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret', { expiresIn: '7d' });
-      res.status(200).send({ token, user });
+      res.status(200).send({ token, ...user._doc, password: undefined, __v: undefined });
     } else {
       throw new BadRequestError('Не правильный email или пароль');
     }
