@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valeriiBorisenko/express-mesto.git"
+    "url": "./"
   },
   "keywords": [],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/valeriiBorisenko/express-mesto/issues"
   },
-  "homepage": "https://github.com/valeriiBorisenko/express-mesto#readme",
+  "homepage": "./",
   "devDependencies": {
     "eslint": "^7.25.0",
     "eslint-config-airbnb-base": "^14.2.1",
