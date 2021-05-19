@@ -8,7 +8,7 @@ const err = require('./middlewares/err');
 const cors = require('cors')
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
-const { PORT = 3005, MONGO_URL = 'api.mesto-valeriib.nomoredomains.rocks' } = process.env;
+const { PORT = 3005, MONGO_URL = 'mongodb://localhost:27017/mestodb' } = process.env;
 const app = express();
 app.use(cors());
 
