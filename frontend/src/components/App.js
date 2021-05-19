@@ -73,7 +73,7 @@ function App() {
 
   useEffect(() => {
     if (loggedIn) {
-      history.push("/main");
+      history.push('/');
     }
   }, [loggedIn, history])
 
@@ -160,7 +160,7 @@ function App() {
         checkTokenUser()
     })
     .then(()=>{
-      history.push('/main')
+      history.push('/')
     })
     .catch((err)=>{
       console.log(err)
@@ -261,7 +261,7 @@ function App() {
                 />
               </Route>
               <ProtectedRoute 
-                path="/main"
+                path="/"
                 loggedIn={loggedIn}
               >
                 <Main
@@ -275,7 +275,7 @@ function App() {
                 />
               </ProtectedRoute>
               <Route exact path="/*">
-                {loggedIn? <Redirect to="/main"/>:<Redirect to="/sign-in"/>}
+                {loggedIn? <Redirect to="/"/>:<Redirect to="/sign-in"/>}
               </Route>
               </Switch>
               <EditProfilePopup 
