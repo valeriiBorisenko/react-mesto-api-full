@@ -42,7 +42,7 @@ class Auth{
 }
 
 const auth = new Auth ({
-  url: "http://api.mesto-valeriiB.nomoredomains.rocks",
+  url: "https://api.mesto-valeriib.nomoredomains.rocks",
 })
 
 export default auth

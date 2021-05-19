@@ -79,7 +79,7 @@ class Api{
 }
 
 const api = new Api ({ 
-  url: "http://api.mesto-valeriiB.nomoredomains.rocks",
+  url: "https://api.mesto-valeriib.nomoredomains.rocks",
   headers: {
     "Content-type": "application/json",
     "Authorization": `Bearer ${localStorage.getItem('token')}`
