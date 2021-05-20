@@ -1,5 +1,7 @@
 {
   "extends": "airbnb-base",
-  "rules": { "no-underscore-dangle": [ "error", { "allow": [ "_id", "_doc" ] } ] },
-  "spaced-comment": ["error", "always", { "markers": ["/"] }]
+  "rules": {
+    "no-underscore-dangle": [ "error", { "allow": [ "_id", "_doc" ] } ] ,
+    "spaced-comment": ["error", "always", { "markers": ["/"] }]
+  }
 }
