@@ -52,7 +52,7 @@ exports.deleteCard = async (req, res, next) => {
 
 exports.likeCard = async (req, res, next) => {
   try {
-    const card = await Card.findByIdAndUpdate(req.params.cardId, { $addToSet: { likes: req.user._id} }, { new: true }).orFail(new Error('NotFoundError'));
+    const card = await Card.findByIdAndUpdate(req.params.cardId, { $addToSet: { likes: req.user._id } }, { new: true }).orFail(new Error('NotFoundError'));
 
     res.send(card);
   } catch (err) {
@@ -68,7 +68,7 @@ exports.likeCard = async (req, res, next) => {
 
 exports.dislikeCard = async (req, res, next) => {
   try {
-    const card = await Card.findByIdAndUpdate(req.params.cardId, { $pull: { likes: req.user._id} }, { new: true }).orFail(new Error('NotFoundError'));
+    const card = await Card.findByIdAndUpdate(req.params.cardId, { $pull: { likes: req.user._id } }, { new: true }).orFail(new Error('NotFoundError'));
 
     res.send(card);
   } catch (err) {
